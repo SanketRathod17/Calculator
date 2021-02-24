@@ -20,4 +20,11 @@ public class CalculatorTest {
     {
         assertEquals(cal.Add("1"),1);
     }
+
+    @Test
+    void CommaSeparatedTwoNumbers()
+    {
+        assertEquals(cal.Add("1,2"),3);
+    }
+
 }
