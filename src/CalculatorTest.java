@@ -12,7 +12,7 @@ public class CalculatorTest {
     @Test
     void EmptyString()
     {
-        assertEquals(cal.Add(" "),0);
+        assertEquals(cal.Add(""),0);
     }
 
     @Test
