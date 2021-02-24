@@ -27,4 +27,9 @@ public class CalculatorTest {
         assertEquals(cal.Add("1,2"),3);
     }
 
+    @Test
+    void NumberGreaterThan()
+    {
+        assertEquals(cal.Add("1,1001"),1);
+    }
 }
