@@ -37,4 +37,10 @@ public class CalculatorTest {
     void ThreeNumbers(){
         assertEquals(cal.Add("1,2,3"),6);
     }
+
+    @Test
+    void differentDelimiters()
+    {
+        assertEquals(cal.Add("1/2/3"),6);
+    }
 }
