@@ -1,6 +1,6 @@
 public class Calculator {
     public int Add(String a) {
-        String carr[] = a.split(",");
+        String carr[] = a.split(",|/|[|]|//");
         int sum = 0;
         if (a.isEmpty()) {
             return 0;
